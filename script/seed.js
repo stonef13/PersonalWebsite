@@ -2,6 +2,58 @@
 
 const db = require('../server/db')
 const {User} = require('../server/db/models')
+const Projects = require('../server/db/models/projects')
+const Skills = require('../server/db/models/skills')
+
+const projects = [
+  {
+    name: 'HedgeHog',
+    description:
+      'A web app to study and copy the strategies of super investors',
+    projectUrl: 'https://fsahedgehog.herokuapp.com/'
+  },
+  {
+    name: "Link's Lights",
+    description: 'An e-commerce site for the sale of light bulbs',
+    projectUrl: 'https://links-lights.herokuapp.com/login'
+  }
+]
+
+const skills = [
+  {
+    name: 'Node'
+  },
+  {
+    name: 'JavaScript'
+  },
+  {
+    name: 'React'
+  },
+  {
+    name: 'Redux'
+  },
+  {
+    name: 'Express'
+  },
+  {
+    name: 'HTML'
+  },
+  {
+    name: 'CSS'
+  },
+  {
+    name: 'PostgreSQL'
+  },
+  {
+    name: 'Bootstrap'
+  },
+  {
+    name: 'Victory'
+  },
+  {
+    name: 'REST API'
+  }
+]
 
 async function seed() {
   await db.sync({force: true})
@@ -11,6 +63,18 @@ async function seed() {
     User.create({email: 'cody@email.com', password: '123'}),
     User.create({email: 'murphy@email.com', password: '123'})
   ])
+
+  await Promise.all(
+    projects.map(project => {
+      return Projects.create(project)
+    })
+  )
+
+  await Promise.all(
+    skills.map(skill => {
+      return Skills.create(skill)
+    })
+  )
 
   console.log(`seeded ${users.length} users`)
   console.log(`seeded successfully`)
