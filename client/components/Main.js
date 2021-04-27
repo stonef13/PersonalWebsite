@@ -38,6 +38,64 @@ class Main extends React.Component {
           explore in my new home of Los Angeles.
         </p>
         <h1>Skills</h1>
+        <img
+          src="skill_logos/JavaScript_Logo.png"
+          className="logos"
+          alt="javascript icon"
+        />
+        <img
+          src="skill_logos/Bootstrap_Logo.png"
+          className="logos"
+          alt="bootstrap logo"
+        />
+        <img src="skill_logos/CSS_Logo.png" className="logos" alt="css logo" />
+        <img
+          src="skill_logos/Express_Logo.png"
+          className="logos"
+          alt="express logo"
+        />
+        <img src="skill_logos/Git_Logo.png" className="logos" alt="git logo" />
+        <img
+          src="skill_logos/HTLM5_Logo.png"
+          className="logos"
+          alt="html5 logo"
+        />
+        <img
+          src="skill_logos/Node_Logo.png"
+          className="logos"
+          alt="node logo"
+        />
+        <img
+          src="skill_logos/PostgreSQL_Logo.png"
+          className="logos"
+          alt="postgresql logo"
+        />
+        <img
+          src="skill_logos/React_Logo.png"
+          className="logos"
+          alt="react logo"
+        />
+        <img
+          src="skill_logos/React-Victory_Logo.jpeg"
+          className="logos"
+          alt="react-victory logo"
+        />
+        <img
+          src="skill_logos/REST_API_Logo.png"
+          className="logos"
+          alt="rest api logo"
+        />
+        <img
+          src="skill_logos/Swift_Logo.png"
+          className="logos"
+          alt="swift logo"
+        />
+        <img
+          src="skill_logos/WebPack_Logo.png"
+          className="logos"
+          alt="webpack logo"
+        />
+
         <h1>Connect</h1>
         <a href="github.com/stonef13">GitHub</a>
         <a href="linkedin.com/in/stonefuglaar">LinkedIn</a>
