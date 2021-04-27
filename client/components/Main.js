@@ -4,18 +4,37 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Hi. I'm Stone Fuglaar and I'm a software engineer living in Los
-          Angeles, California.
-        </h1>
-        <h1>Work</h1>
-        <h2>HedgeHog</h2>
-        <p>A web app to study and copy the strategies of super investors</p>
-        <a href="https://fsahedgehog.herokuapp.com/">Link here</a>
-        <h2>Link's Lights</h2>
-        <p>An e-commerce site for the sale of light bulbs</p>
-        <a href="https://links-lights.herokuapp.com/">Link here</a>
-        <h2 />
+        <div className="intro">
+          <h1>
+            Hi. I'm Stone Fuglaar and I'm a software engineer living in Los
+            Angeles, California.
+          </h1>
+        </div>
+        <div className="work">
+          <h1>Work</h1>
+
+          <a href="https://fsahedgehog.herokuapp.com/">
+            <img
+              src="work_images/Poster-quote-PixTeller.png"
+              alt="hedgehog poster"
+            />
+          </a>
+
+          <a href="https://links-lights.herokuapp.com/">
+            <img
+              src="work_images/Links-Lights-PixTeller.png"
+              alt="link's lights poster"
+            />
+          </a>
+
+          <img
+            src="work_images/Swift_Work.png"
+            className="work-photos"
+            alt="swift publication photo"
+          />
+          <h2>Switching from JavaScript to Swift</h2>
+          <a href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16" />
+        </div>
         <h1>About</h1>
         <p>
           Before entering the world of tech, I was involved in the performing
