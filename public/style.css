@@ -19,3 +19,59 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.intro {
+  text-align: center;
+  margin-bottom: 12%;
+  margin-top: 15%;
+}
+
+.intro h2 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logos {
+  height: 15%;
+  width: 15%;
+  margin: 2rem;
+}
+
+/* .work {
+  background-color: green
+} */
+
+.work-container {
+  display: flex;
+}
+
+.poster {
+  height: 90%;
+  width: 80%;
+  border: black solid 4px;
+}
+
+.about-me h1 {
+  text-align: end;
+  margin-right: 10%;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-container img {
+  height: 40%;
+  width: 50%;
+  margin-right: 20%;
+}
+
+.about-container p {
+  margin-top: 20%;
+  margin-right: 20%;
+}
