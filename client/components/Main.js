@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 class Main extends React.Component {
   render() {
@@ -9,12 +10,59 @@ class Main extends React.Component {
             Hi. My name is Stone Fuglaar and I'm a software engineer living in
             Los Angeles, California.
           </h2>
-          <h3>Work</h3>
-          <h3>About Me</h3>
-          <h3>Skills</h3>
-          <h3>Connect</h3>
+          <button type="button" className="btn btn-outline-link">
+            <Link
+              className="Link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="work"
+            >
+              <h3>Work</h3>
+            </Link>
+          </button>
+          <br />
+          <button type="button" className="btn btn-outline-link">
+            <Link
+              className="Link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="about-me"
+            >
+              <h3>About Me</h3>
+            </Link>
+          </button>
+          <br />
+          <button type="button" className="btn btn-outline-link">
+            <Link
+              className="Link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="skills"
+            >
+              <h3>Skills</h3>
+            </Link>
+          </button>
+          <br />
+          <button type="button" className="btn btn-outline-link">
+            <Link
+              className="Link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="connect"
+            >
+              <h3>Connect</h3>
+            </Link>
+          </button>
         </div>
-        <div className="work">
+        <div className="work" id="work">
           <h1>Work</h1>
           <div className="work-container">
             <a href="https://fsahedgehog.herokuapp.com/">
@@ -42,7 +90,7 @@ class Main extends React.Component {
             </a>
           </div>
         </div>
-        <div className="about-me">
+        <div className="about-me" id="about-me">
           <h1>About Me</h1>
           <div className="about-container">
             <img src="my_image/Screen Shot 2021-04-13 at 10.28.26.png" />
@@ -72,7 +120,7 @@ class Main extends React.Component {
           </div>
         </div>
         <div>
-          <h1>Skills</h1>
+          <h1 id="skills">Skills</h1>
           <div className="skills-container">
             <img
               src="skill_logos/JavaScript_Logo.png"
@@ -143,7 +191,7 @@ class Main extends React.Component {
           </div>
         </div>
 
-        <h1>Connect</h1>
+        <h1 id="connect">Connect</h1>
         <a href="github.com/stonef13">GitHub</a>
         <a href="linkedin.com/in/stonefuglaar">LinkedIn</a>
         <p>email: rsfuglaar@gmail.com</p>
