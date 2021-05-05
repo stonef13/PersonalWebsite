@@ -83,3 +83,17 @@ form div {
 #connect {
   text-align: center;
 }
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-right-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-right-nav-container h3 {
+  margin: 2rem;
+}
