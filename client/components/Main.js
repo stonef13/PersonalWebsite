@@ -50,10 +50,10 @@ class Main extends React.Component {
           </div>
         </div>
         <div className="about-me" id="about-me">
-          <h1>About Me</h1>
           <div className="about-container">
             <img src="my_image/Screen Shot 2021-04-13 at 10.28.26.png" />
             <div>
+              <h1>About Me</h1>
               <p>
                 Before entering the world of tech, I was involved in the
                 performing arts. I had dabbled in coding since high school, but
