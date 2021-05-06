@@ -10,57 +10,16 @@ class Main extends React.Component {
             Hi. My name is Stone Fuglaar and I'm a software engineer living in
             Los Angeles, California.
           </h2>
-          <button type="button" className="btn btn-outline-link">
-            <Link
-              className="Link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="work"
-            >
-              <h3>Work</h3>
-            </Link>
-          </button>
-          <br />
-          <button type="button" className="btn btn-outline-link">
-            <Link
-              className="Link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="about-me"
-            >
-              <h3>About Me</h3>
-            </Link>
-          </button>
-          <br />
-          <button type="button" className="btn btn-outline-link">
-            <Link
-              className="Link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="skills"
-            >
-              <h3>Skills</h3>
-            </Link>
-          </button>
-          <br />
-          <button type="button" className="btn btn-outline-link">
-            <Link
-              className="Link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="connect"
-            >
-              <h3>Connect</h3>
-            </Link>
-          </button>
+          <Link
+            className="link"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            duration={700}
+            to="work"
+          >
+            <h2 className="learn-more">Learn More</h2>
+          </Link>
         </div>
         <div className="work" id="work">
           <h1>Work</h1>

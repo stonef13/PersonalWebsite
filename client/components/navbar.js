@@ -17,15 +17,51 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           </a>
         </div>
       ) : (
-        <div className="nav-container">
+        <div className="nav-container inner-right-nav-container h3">
           <div>
-            <h1>SF</h1>
+            <h3>Stone Fuglaar</h3>
           </div>
           <div className="inner-right-nav-container">
-            <h3>Work</h3>
-            <h3>About Me</h3>
-            <h3>Skills</h3>
-            <h3>Connect</h3>
+            <Link
+              className="link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="work"
+            >
+              <h3>Work</h3>
+            </Link>
+            <Link
+              className="link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="about-me"
+            >
+              <h3>About Me</h3>
+            </Link>
+            <Link
+              className="link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="skills"
+            >
+              <h3>Skills</h3>
+            </Link>
+            <Link
+              className="link"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={700}
+              to="connect"
+            >
+              <h3>Connect</h3>
+            </Link>
           </div>
           {/* The navbar will show these links before you log in */}
           {/* <Link to="/login">Login</Link>
