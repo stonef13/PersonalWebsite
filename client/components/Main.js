@@ -23,7 +23,38 @@ class Main extends React.Component {
         </div>
         <div className="work" id="work">
           <h1>Work</h1>
-          <div className="work-container">
+          <div className="container">
+            <div className="row">
+              <div className="col align-self-start">
+                <a href="https://fsahedgehog.herokuapp.com/">
+                  <img
+                    src="work_images/HedgeHog_Work.png"
+                    alt="hedgehog poster"
+                    className="poster"
+                  />
+                </a>
+              </div>
+              <div className="col align-self-center">
+                <a href="https://links-lights.herokuapp.com/">
+                  <img
+                    src="work_images/LinksLights_Work.png"
+                    alt="link's lights poster"
+                    className="poster"
+                  />
+                </a>
+              </div>
+              <div className="col align-self-end">
+                <a href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16">
+                  <img
+                    src="work_images/SwitchingFromJavaScriptToSwift_Work.png"
+                    alt="swift publication photo"
+                    className="poster"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* <div className="work-container">
             <a href="https://fsahedgehog.herokuapp.com/">
               <img
                 src="work_images/Poster-quote-PixTeller.png"
@@ -47,7 +78,7 @@ class Main extends React.Component {
                 className="poster"
               />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="about-me" id="about-me">
           <div className="about-container">
