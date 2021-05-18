@@ -17,10 +17,8 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           </a>
         </div>
       ) : (
-        <div className="nav-container inner-right-nav-container h3">
-          <div>
-            <h3>Stone Fuglaar</h3>
-          </div>
+        <div className="navbar fixed navbar-dark bg-dark">
+          <div>{/* <h3>Stone Fuglaar</h3> */}</div>
           <div className="inner-right-nav-container">
             <Link
               className="link"
@@ -63,9 +61,6 @@ const Navbar = ({handleClick, isLoggedIn}) => (
               <h3>Connect</h3>
             </Link>
           </div>
-          {/* The navbar will show these links before you log in */}
-          {/* <Link to="/login">Login</Link>
-          <Link to="/signup">Sign Up</Link> */}
         </div>
       )}
     </nav>

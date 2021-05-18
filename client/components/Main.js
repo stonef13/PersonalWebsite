@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
+// import Navbar from './navbar'
 
 class Main extends React.Component {
   render() {
@@ -7,8 +8,8 @@ class Main extends React.Component {
       <div>
         <div className="intro">
           <h2>
-            Hi. My name is Stone Fuglaar and I'm a software engineer living in
-            Los Angeles, California.
+            Hello. My name is Stone Fuglaar and I'm a software engineer living
+            in Los Angeles, California.
           </h2>
           <Link
             className="link"
@@ -21,11 +22,15 @@ class Main extends React.Component {
             <h2 className="learn-more">Learn More</h2>
           </Link>
         </div>
+        {/* <div>
+          <Navbar />
+        </div> */}
         <div className="work" id="work">
           <h1>Work</h1>
+
           <div className="container">
             <div className="row">
-              <div className="col align-self-start">
+              <div className="col-md align-self-start">
                 <a href="https://fsahedgehog.herokuapp.com/">
                   <img
                     src="work_images/HedgeHog_Work.png"
@@ -34,7 +39,7 @@ class Main extends React.Component {
                   />
                 </a>
               </div>
-              <div className="col align-self-center">
+              <div className="col-md align-self-center">
                 <a href="https://links-lights.herokuapp.com/">
                   <img
                     src="work_images/LinksLights_Work.png"
@@ -43,7 +48,7 @@ class Main extends React.Component {
                   />
                 </a>
               </div>
-              <div className="col align-self-end">
+              <div className="col-md align-self-end">
                 <a href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16">
                   <img
                     src="work_images/SwitchingFromJavaScriptToSwift_Work.png"
@@ -54,31 +59,6 @@ class Main extends React.Component {
               </div>
             </div>
           </div>
-          {/* <div className="work-container">
-            <a href="https://fsahedgehog.herokuapp.com/">
-              <img
-                src="work_images/Poster-quote-PixTeller.png"
-                alt="hedgehog poster"
-                className="poster"
-              />
-            </a>
-
-            <a href="https://links-lights.herokuapp.com/">
-              <img
-                src="work_images/Links-Lights-PixTeller.png"
-                alt="link's lights poster"
-                className="poster"
-              />
-            </a>
-
-            <a href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16">
-              <img
-                src="work_images/Poster-mockup-iphone-phone-PixTeller.png"
-                alt="swift publication photo"
-                className="poster"
-              />
-            </a>
-          </div> */}
         </div>
         <div className="about-me" id="about-me">
           <div className="about-container">
