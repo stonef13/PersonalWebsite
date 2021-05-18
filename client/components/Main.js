@@ -252,11 +252,31 @@ class Main extends React.Component {
             </div>
           </div>
         </div>
-
-        <h1 id="connect">Connect (Let's build something)</h1>
-        <a href="github.com/stonef13">GitHub</a>
-        <a href="linkedin.com/in/stonefuglaar">LinkedIn</a>
-        <p>email: rsfuglaar@gmail.com</p>
+        <h1 id="connect">Connect</h1>
+        <div className="connect-container">
+          <a href="github.com/stonef13">
+            <img
+              className="connect-img"
+              src="connect_logos/GitHub-logo.png"
+              alt="my github"
+            ></img>
+          </a>
+          <br></br>
+          <a href="linkedin.com/in/stonefuglaar">
+            <img
+              className="connect-img"
+              src="connect_logos/linkedinlogo.jpeg"
+              alt="my linkedin"
+            ></img>
+          </a>
+          <br></br>
+          <img
+            className="connect-img"
+            src="connect_logos/gmail-logo-4-1.png"
+            alt="my gmail"
+          ></img>
+          <h1>rsfuglaar@gmail.com</h1>
+        </div>
       </div>
     )
   }

@@ -112,6 +112,7 @@ form div {
 
 #connect {
   text-align: center;
+  padding-bottom: 5rem;
 }
 
 .nav-container {
@@ -152,4 +153,18 @@ form div {
   width: 10vw;
   height: 10vw;
   object-fit: cover;
+}
+
+.connect-container {
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content: space-between;
+  padding-bottom: 10rem;
+}
+
+.connect-img {
+  width: 14vw;
+  height: 10vw;
+  position: center;
 }
