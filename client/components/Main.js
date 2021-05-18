@@ -94,7 +94,7 @@ class Main extends React.Component {
           <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-2 g-lg-2">
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -102,11 +102,11 @@ class Main extends React.Component {
                       alt="javascript icon"
                     />
                   </div>
-                  <h1 className="card-title">JavaScript</h1>
+                  <h5 className="card-title">JavaScript</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -114,11 +114,11 @@ class Main extends React.Component {
                       alt="bootstrap logo"
                     />
                   </div>
-                  <h1 className="card-title">Bootstrap</h1>
+                  <h5 className="card-title">Bootstrap</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -126,11 +126,11 @@ class Main extends React.Component {
                       alt="css logo"
                     />
                   </div>
-                  <h1 className="card-title">CSS3</h1>
+                  <h5 className="card-title">CSS3</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -138,11 +138,11 @@ class Main extends React.Component {
                       alt="express logo"
                     />
                   </div>
-                  <h1 className="card-title">Express</h1>
+                  <h5 className="card-title">Express</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -150,11 +150,11 @@ class Main extends React.Component {
                       alt="git logo"
                     />
                   </div>
-                  <h1 className="card-title">Git</h1>
+                  <h5 className="card-title">Git</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -162,11 +162,11 @@ class Main extends React.Component {
                       alt="html5 logo"
                     />
                   </div>
-                  <h1 className="card-title">HTML5</h1>
+                  <h5 className="card-title">HTML5</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -174,11 +174,11 @@ class Main extends React.Component {
                       alt="node logo"
                     />
                   </div>
-                  <h1 className="card-title">Node</h1>
+                  <h5 className="card-title">Node</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -186,11 +186,11 @@ class Main extends React.Component {
                       alt="postgresql logo"
                     />
                   </div>
-                  <h1 className="card-title">PostgreSQL</h1>
+                  <h5 className="card-title">PostgreSQL</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -198,11 +198,11 @@ class Main extends React.Component {
                       alt="react logo"
                     />
                   </div>
-                  <h1 className="card-title">React</h1>
+                  <h5 className="card-title">React</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -210,11 +210,11 @@ class Main extends React.Component {
                       alt="react-victory logo"
                     />
                   </div>
-                  <h1 className="card-title">Victory.js</h1>
+                  <h5 className="card-title">Victory.js</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -222,11 +222,11 @@ class Main extends React.Component {
                       alt="rest api logo"
                     />
                   </div>
-                  <h1 className="card-title">REST API</h1>
+                  <h5 className="card-title">REST API</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -234,11 +234,11 @@ class Main extends React.Component {
                       alt="swift logo"
                     />
                   </div>
-                  <h1 className="card-title">Swift</h1>
+                  <h5 className="card-title">Swift</h5>
                 </div>
               </div>
               <div className="col p-2">
-                <div className="card">
+                <div className="card card-skill">
                   <div className="card-body">
                     <img
                       className="card-img-top"
@@ -246,14 +246,14 @@ class Main extends React.Component {
                       alt="webpack logo"
                     />
                   </div>
-                  <h1 className="card-title">WebPack</h1>
+                  <h5 className="card-title">WebPack</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <h1 id="connect">Connect</h1>
+        <h1 id="connect">Connect (Let's build something)</h1>
         <a href="github.com/stonef13">GitHub</a>
         <a href="linkedin.com/in/stonefuglaar">LinkedIn</a>
         <p>email: rsfuglaar@gmail.com</p>

@@ -139,3 +139,17 @@ form div {
 /* .learn-more {
   color: #ee6c4d;
 } */
+
+/* style={{padding: '1rem', border: 'none'}} */
+
+.card-skill {
+  padding: 3rem;
+  border: none;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 10vw;
+  height: 10vw;
+  object-fit: cover;
+}
