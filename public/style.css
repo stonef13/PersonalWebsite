@@ -1,6 +1,6 @@
-/* body {
+body {
   font-family: 'Poppins', sans-serif;
-} */
+}
 
 a {
   text-decoration: none;
@@ -157,14 +157,18 @@ form div {
 
 .connect-container {
   display: flex;
-  /* flex-direction: column;
-  align-items: center; */
-  justify-content: space-between;
-  padding-bottom: 10rem;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between;
+  padding-bottom: 10rem; */
 }
 
 .connect-img {
   width: 14vw;
   height: 10vw;
   position: center;
+}
+
+i {
+  background-color: white;
 }
