@@ -59,7 +59,7 @@ form div {
 
 .work {
   margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   margin-right: 5rem;
   margin-left: 5rem;
 }
@@ -73,9 +73,10 @@ form div {
 }
 
 .poster {
-  height: 90%;
+  height: 80%;
   width: 80%;
   border: black solid 4px;
+  margin-bottom: 5%;
 }
 
 .about-header {
@@ -83,7 +84,7 @@ form div {
 }
 
 .about-container {
-  margin-top: 10%;
+  /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
