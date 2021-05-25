@@ -22,7 +22,9 @@ class Main extends React.Component {
             <h2 className="learn-more">Learn More</h2>
           </Link>
         </div>
-        <div>{/* <Navbar /> */}</div>
+        {/* <div>
+          <Navbar />
+        </div> */}
         <div className="work" id="work">
           <h1>Work</h1>
 
@@ -58,11 +60,16 @@ class Main extends React.Component {
             </div>
           </div>
         </div>
-        <div className="about-me" id="about-me">
-          <div className="about-container">
-            <img src="my_image/Screen Shot 2021-04-13 at 10.28.26.png" />
-            <div>
-              <h1>About Me</h1>
+        <div className="container about-container" id="about-me">
+          <div className="row">
+            <div className="col">
+              <img
+                className="about-img"
+                src="my_image/Screen Shot 2021-04-13 at 10.28.26.png"
+              />
+            </div>
+            <div className="col">
+              <h1 className="about-header">About Me</h1>
               <p>
                 Before entering the world of tech, I was involved in the
                 performing arts. I had dabbled in coding since high school, but
