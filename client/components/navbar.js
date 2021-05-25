@@ -17,54 +17,62 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           </a>
         </div>
       ) : (
-        <div className="navbar fixed navbar-dark bg-dark">
-          <div>{/* <h3>Stone Fuglaar</h3> */}</div>
-          <div className="inner-right-nav-container">
-            <Link
-              className="link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="work"
-            >
-              <h3>Work</h3>
-            </Link>
-            <Link
-              className="link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="about-me"
-            >
-              <h3>About Me</h3>
-            </Link>
-            <Link
-              className="link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="skills"
-            >
-              <h3>Skills</h3>
-            </Link>
-            <Link
-              className="link"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-              to="connect"
-            >
-              <h3>Connect</h3>
-            </Link>
+        <div className="navbar navbar-light fixed-top navbar-background">
+          <div className="container-fluid">
+            <div className="navbar-brand">Stone Fuglaar</div>
+            <div>
+              <Link
+                className="link nav-link"
+                spy={true}
+                smooth={true}
+                offset={-30}
+                duration={700}
+                to="work"
+              >
+                <h6>Work</h6>
+              </Link>
+              {/* /START */}
+            </div>
+            <div>
+              <Link
+                className="link nav-link"
+                spy={true}
+                smooth={true}
+                offset={-30}
+                duration={700}
+                to="about-me"
+              >
+                <h6>About Me</h6>
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="link nav-link"
+                spy={true}
+                smooth={true}
+                offset={-30}
+                duration={700}
+                to="skills"
+              >
+                <h6>Skills</h6>
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="link nav-link"
+                spy={true}
+                smooth={true}
+                offset={-30}
+                duration={700}
+                to="connect"
+              >
+                <h6>Connect</h6>
+              </Link>
+            </div>
           </div>
         </div>
       )}
     </nav>
-    <hr />
   </div>
 )
 

@@ -1,16 +1,17 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-// import Navbar from './navbar'
+import Navbar from './navbar'
 
 class Main extends React.Component {
   render() {
     return (
       <div>
+        <Navbar />
         <div className="intro">
-          <h2>
+          <h4>
             Hello. My name is Stone Fuglaar and I'm a software engineer living
             in Los Angeles, California.
-          </h2>
+          </h4>
           <Link
             className="link"
             spy={true}
@@ -19,12 +20,9 @@ class Main extends React.Component {
             duration={700}
             to="work"
           >
-            <h2 className="learn-more">Learn More</h2>
+            <h4 className="learn-more">Learn More</h4>
           </Link>
         </div>
-        {/* <div>
-          <Navbar />
-        </div> */}
         <div className="work" id="work">
           <h1>Work</h1>
 
@@ -257,35 +255,10 @@ class Main extends React.Component {
             </div>
           </div>
         </div>
-        {/* <h1 id="connect">Connect</h1>
-        <div className="connect-container">
-          <a href="github.com/stonef13">
-            <img
-              className="connect-img"
-              src="connect_logos/GitHub-logo.png"
-              alt="my github"
-            ></img>
-          </a>
-          <br></br>
-          <a href="linkedin.com/in/stonefuglaar">
-            <img
-              className="connect-img"
-              src="connect_logos/linkedinlogo.jpeg"
-              alt="my linkedin"
-            ></img>
-          </a>
-          <br></br>
-          <img
-            className="connect-img"
-            src="connect_logos/gmail-logo-4-1.png"
-            alt="my gmail"
-          ></img>
-          <h6>rsfuglaar@gmail.com</h6>
-        </div> */}
 
         {/* CONNECT */}
 
-        <footer className="bg-dark text-center text-white">
+        <footer className="bg-dark text-center text-white" id="connect">
           <h1>Connect</h1>
           <div className="container p-4">
             <section className="mb-4">

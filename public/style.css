@@ -106,18 +106,8 @@ form div {
   padding-bottom: 5rem;
 }
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.inner-right-nav-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.inner-right-nav-container h3 {
-  margin: 1rem;
+.navbar-background {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .link {
