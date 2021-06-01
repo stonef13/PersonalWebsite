@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  /* font-family: 'Mukta', sans-serif; */
 }
 
 a {
@@ -9,11 +10,6 @@ a {
 label {
   display: block;
 }
-
-/* nav a {
-  display: inline-block;
-  margin: 1em;
-} */
 
 form div {
   margin: 1em;
@@ -46,19 +42,8 @@ form div {
   margin-bottom: 5%;
 }
 
-/* .skills-container {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-/* .logos {
-  height: 15%;
-  width: 15%;
-  margin: 2rem;
-} */
-
 .work {
-  margin-top: 10rem;
+  margin-top: 12rem;
   margin-bottom: 10rem;
   margin-right: 5rem;
   margin-left: 5rem;
@@ -84,7 +69,6 @@ form div {
 }
 
 .about-container {
-  /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
@@ -118,12 +102,6 @@ form div {
   cursor: pointer;
 }
 
-/* .learn-more {
-  color: #ee6c4d;
-} */
-
-/* style={{padding: '1rem', border: 'none'}} */
-
 .card-skill {
   padding: 3rem;
   border: none;
@@ -140,8 +118,6 @@ form div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between;
-  padding-bottom: 10rem; */
 }
 
 .connect-img {

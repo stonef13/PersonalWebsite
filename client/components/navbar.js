@@ -25,7 +25,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 className="link nav-link"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-80}
                 duration={700}
                 to="work"
               >
@@ -38,7 +38,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 className="link nav-link"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-80}
                 duration={700}
                 to="about-me"
               >
@@ -50,7 +50,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 className="link nav-link"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-80}
                 duration={700}
                 to="skills"
               >

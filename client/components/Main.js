@@ -16,7 +16,7 @@ class Main extends React.Component {
             className="link"
             spy={true}
             smooth={true}
-            offset={-30}
+            offset={-80}
             duration={700}
             to="work"
           >
