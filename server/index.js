@@ -51,25 +51,8 @@ const createApp = () => {
   // compression middleware
   app.use(compression())
 
-  // session middleware with passport
-  // app.use(
-  //   session({
-  //     secret: process.env.SESSION_SECRET || 'my best friend is Cody',
-  //     store: sessionStore,
-  //     resave: false,
-  //     saveUninitialized: false
-  //   })
-  // )
-  // app.use(passport.initialize())
-  // app.use(passport.session())
-
-  // auth and api routes
-  // app.use('/auth', require('./auth'))
-  // app.use('/api', require('./api'))
-
   // static file-serving middleware
   app.use(express.static(path.join(__dirname, '..', 'public')))
-
   // any remaining requests with an extension (.js, .css, etc.) send 404
   app.use((req, res, next) => {
     if (path.extname(req.path).length) {
