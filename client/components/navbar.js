@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-// import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import {Link} from 'react-scroll'
 
@@ -19,7 +18,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       ) : (
         <div className="navbar navbar-light fixed-top navbar-background">
           <div className="container-fluid">
-            <div className="navbar-brand">Stone Fuglaar</div>
+            {/* <div className="navbar-brand">Stone Fuglaar</div> */}
             <div>
               <Link
                 className="link nav-link"
