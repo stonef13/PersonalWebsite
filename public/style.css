@@ -1,6 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  /* font-family: 'Mukta', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Mukta', sans-serif;
 }
 
 a {
@@ -132,8 +132,8 @@ i {
 
 @media only screen and (max-width: 600px) {
   .intro {
-    padding-bottom: 100%;
-    padding-top: 100%;
+    padding-bottom: 75%;
+    padding-top: 75%;
   }
 
   .about-header {
