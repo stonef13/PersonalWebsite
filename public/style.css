@@ -44,7 +44,7 @@ form div {
 }
 
 .work {
-  margin-top: 12rem;
+  margin-top: 6rem;
   margin-bottom: 10rem;
   margin-right: 5rem;
   margin-left: 5rem;
@@ -89,6 +89,7 @@ form div {
 #connect {
   text-align: center;
   padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .navbar-background {

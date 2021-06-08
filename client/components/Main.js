@@ -303,9 +303,6 @@ class Main extends React.Component {
           >
             © Copyright 2021 Stone Fuglaar
           </div>
-          {/* <div className="text-center p-3 text-light">
-            © Copyright 2021 Stone Fuglaar
-          </div> */}
         </footer>
       </div>
     )
