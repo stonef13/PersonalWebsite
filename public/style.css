@@ -1,7 +1,5 @@
 body {
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-family: 'Rubik', sans-serif; */
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -154,5 +152,9 @@ i {
     padding-right: 30%;
     padding-left: 30%;
     font-size: 100%;
+  }
+
+  .card {
+    padding: 10%;
   }
 }
