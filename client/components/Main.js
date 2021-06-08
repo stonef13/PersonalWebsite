@@ -8,7 +8,7 @@ class Main extends React.Component {
       <div>
         <Navbar />
         <div className="intro">
-          <h4>
+          <h4 className="welcome-description">
             Hello. My name is Stone Fuglaar and I'm a software engineer living
             in Los Angeles, California.
           </h4>
@@ -20,7 +20,7 @@ class Main extends React.Component {
             duration={700}
             to="work"
           >
-            <h4 className="learn-more">Learn More</h4>
+            <h4 className="learn-more welcome-description">Learn More</h4>
           </Link>
         </div>
         <div className="work" id="work">

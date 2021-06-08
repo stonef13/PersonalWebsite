@@ -141,5 +141,18 @@ i {
   .about-header {
     margin-bottom: 10%;
     margin-top: 10%;
+    text-align: center;
+  }
+
+  .about-img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .welcome-description {
+    padding-right: 30%;
+    padding-left: 30%;
+    font-size: 100%;
   }
 }
