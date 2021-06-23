@@ -8,7 +8,7 @@ const Connect = () => {
         <section className="mb-4">
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="github.com/stonef13"
+            href="https://github.com/stonef13"
             role="button"
           >
             <svg
@@ -24,7 +24,7 @@ const Connect = () => {
           </a>
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="linkedin.com/in/stonefuglaar"
+            href="https://www.linkedin.com/in/stonefuglaar"
             role="button"
           >
             <svg
