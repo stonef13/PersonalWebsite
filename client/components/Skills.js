@@ -29,7 +29,7 @@ const Skills = () => {
     <div>
       <h1 id="skills">Skills</h1>
       <div className="container">
-        <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-2 g-lg-2">
+        <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 g-lg-2">
           <div className="col p-2">
             <div className="card card-skill">
               <div className="card-body">
