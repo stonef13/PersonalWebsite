@@ -45,7 +45,7 @@ const Work = () => {
           </div>
           <div className="col-md align-self-center">
             <FadeInContainer>
-              <a href="https://links-lights.herokuapp.com/">
+              <a href="https://links-lights-v2.herokuapp.com/">
                 <img
                   src="work_images/LinksLights_Work.png"
                   alt="link's lights poster"
