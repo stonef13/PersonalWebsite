@@ -96,7 +96,7 @@ const Work = () => {
             </div>
             <div className="row">
               <p className="card-text">
-                ● Mastered Bootstrap in just a few hours and made main
+                ● Learned Bootstrap in just a few hours and made main
                 contribution to the design ● Designed front and back end
                 (fullstack) for cart/checkout ● Created back-end heavy
                 algorithms to sort and organize data in order to keep the front
