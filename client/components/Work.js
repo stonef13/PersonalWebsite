@@ -4,28 +4,28 @@ import VisibilitySensor from 'react-visibility-sensor'
 
 //Future addition for animation below
 
-// const FadeInDirection = ({isVisible, children}) => {
-//   const props = useSpring({
-//     opacity: isVisible ? 1 : 0,
-//     transform: isVisible ? 'translateY(0px)' : 'translateY(50px)',
-//     config: {duration: 1000}
-//   })
-//   return <animated.div style={props}>{children}</animated.div>
-// }
+const FadeInDirection = ({isVisible, children}) => {
+  const props = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0px)' : 'translateY(50px)',
+    config: {duration: 1000}
+  })
+  return <animated.div style={props}>{children}</animated.div>
+}
 
-// export const FadeInContainer = ({children}) => {
-//   const [isVisible, setVisibility] = useState(false)
+export const FadeInContainer = ({children}) => {
+  const [isVisible, setVisibility] = useState(false)
 
-//   const onChange = visiblity => {
-//     visiblity && setVisibility(visiblity)
-//   }
+  const onChange = visiblity => {
+    visiblity && setVisibility(visiblity)
+  }
 
-//   return (
-//     <VisibilitySensor onChange={onChange}>
-//       <FadeInDirection isVisible={isVisible}>{children}</FadeInDirection>
-//     </VisibilitySensor>
-//   )
-// }
+  return (
+    <VisibilitySensor onChange={onChange}>
+      <FadeInDirection isVisible={isVisible}>{children}</FadeInDirection>
+    </VisibilitySensor>
+  )
+}
 
 const Work = () => {
   return (
@@ -44,13 +44,15 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card">
-                <img
-                  className="card-img"
-                  src="/work_images/Hedgehog_Screenshot.png"
-                  alt="Card image"
-                />
-              </div>
+              <FadeInContainer>
+                <div className="card">
+                  <img
+                    className="card-img"
+                    src="/work_images/Hedgehog_Screenshot.png"
+                    alt="Card image"
+                  />
+                </div>
+              </FadeInContainer>
             </div>
             <div className="row">
               <p className="card-text">
@@ -81,13 +83,15 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card">
-                <img
-                  className="card-img"
-                  src="/work_images/Links_Lights_Screenshot.png"
-                  alt="Card image"
-                />
-              </div>
+              <FadeInContainer>
+                <div className="card">
+                  <img
+                    className="card-img"
+                    src="/work_images/Links_Lights_Screenshot.png"
+                    alt="Card image"
+                  />
+                </div>
+              </FadeInContainer>
             </div>
             <div className="row">
               <p className="card-text">
@@ -118,13 +122,15 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card">
-                <img
-                  className="card-img"
-                  src="/work_images/Swift_Publication_Screenshot.png"
-                  alt="Card image"
-                />
-              </div>
+              <FadeInContainer>
+                <div className="card">
+                  <img
+                    className="card-img"
+                    src="/work_images/Swift_Publication_Screenshot.png"
+                    alt="Card image"
+                  />
+                </div>
+              </FadeInContainer>
             </div>
             <div className="row">
               <p className="card-text">
