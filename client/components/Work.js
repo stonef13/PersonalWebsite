@@ -2,38 +2,38 @@ import React, {useState} from 'react'
 import {useSpring, animated} from 'react-spring'
 import VisibilitySensor from 'react-visibility-sensor'
 
-const FadeInDirection = ({isVisible, children}) => {
-  const props = useSpring({
-    opacity: isVisible ? 1 : 0,
-    transform: isVisible ? 'translateY(0px)' : 'translateY(50px)',
-    config: {duration: 1000}
-  })
-  return <animated.div style={props}>{children}</animated.div>
-}
+//Future addition for animation below
 
-export const FadeInContainer = ({children}) => {
-  const [isVisible, setVisibility] = useState(false)
+// const FadeInDirection = ({isVisible, children}) => {
+//   const props = useSpring({
+//     opacity: isVisible ? 1 : 0,
+//     transform: isVisible ? 'translateY(0px)' : 'translateY(50px)',
+//     config: {duration: 1000}
+//   })
+//   return <animated.div style={props}>{children}</animated.div>
+// }
 
-  const onChange = visiblity => {
-    visiblity && setVisibility(visiblity)
-  }
+// export const FadeInContainer = ({children}) => {
+//   const [isVisible, setVisibility] = useState(false)
 
-  return (
-    <VisibilitySensor onChange={onChange}>
-      <FadeInDirection isVisible={isVisible}>{children}</FadeInDirection>
-    </VisibilitySensor>
-  )
-}
+//   const onChange = visiblity => {
+//     visiblity && setVisibility(visiblity)
+//   }
+
+//   return (
+//     <VisibilitySensor onChange={onChange}>
+//       <FadeInDirection isVisible={isVisible}>{children}</FadeInDirection>
+//     </VisibilitySensor>
+//   )
+// }
 
 const Work = () => {
   return (
     <div className="work" id="work">
       <h1>Work</h1>
-
       <div className="container">
         <div className="row">
           <div className="col-md align-self-start">
-            {/* <FadeInContainer> */}
             <a href="https://fsahedgehog.herokuapp.com/">
               <img
                 src="work_images/HedgeHog_Work.png"
@@ -41,11 +41,10 @@ const Work = () => {
                 className="poster"
               />
             </a>
-            {/* </FadeInContainer> */}
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card bg-dark">
+              <div className="card">
                 <img
                   className="card-img"
                   src="/work_images/Hedgehog_Screenshot.png"
@@ -68,13 +67,10 @@ const Work = () => {
               </p>
             </div>
           </div>
-          {/* <div className="col-md"> */}
-          {/* </div> */}
         </div>
         <hr />
         <div className="row">
           <div className="col-md align-self-start">
-            {/* <FadeInContainer> */}
             <a href="https://links-lights-v2.herokuapp.com/">
               <img
                 src="work_images/LinksLights_Work.png"
@@ -82,11 +78,10 @@ const Work = () => {
                 className="poster"
               />
             </a>
-            {/* </FadeInContainer> */}
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card bg-dark">
+              <div className="card">
                 <img
                   className="card-img"
                   src="/work_images/Links_Lights_Screenshot.png"
@@ -113,7 +108,6 @@ const Work = () => {
         <hr />
         <div className="row">
           <div className="col-md align-self-start">
-            {/* <FadeInContainer> */}
             <a href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16">
               <img
                 src="work_images/Switching_From_JavaScript_To_Swift_Work.png"
@@ -121,11 +115,10 @@ const Work = () => {
                 className="poster"
               />
             </a>
-            {/* </FadeInContainer> */}
           </div>
           <div className="col-md">
             <div className="row">
-              <div className="card bg-dark">
+              <div className="card">
                 <img
                   className="card-img"
                   src="/work_images/Swift_Publication_Screenshot.png"
