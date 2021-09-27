@@ -32,7 +32,7 @@ const Work = () => {
     <div className="work" id="work">
       <h1>Work</h1>
       <div className="container">
-        <div className="row">
+        <div className="row hedgehog">
           <div className="col-md align-self-start">
             <a href="https://fsahedgehog.herokuapp.com/">
               <img
@@ -45,7 +45,7 @@ const Work = () => {
           <div className="col-md">
             <div className="row">
               <FadeInContainer>
-                <div className="card">
+                <div className="card screenshot-fade">
                   <img
                     className="card-img"
                     src="/work_images/Hedgehog_Screenshot.png"
@@ -71,7 +71,7 @@ const Work = () => {
           </div>
         </div>
         <hr />
-        <div className="row">
+        <div className="row links-lights">
           <div className="col-md align-self-start">
             <a href="https://links-lights-v2.herokuapp.com/">
               <img
