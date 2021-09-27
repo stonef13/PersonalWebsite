@@ -56,11 +56,10 @@ const Work = () => {
             </div>
             <div className="row">
               <p className="card-text">
-                ● Integrated recieved data into Victory.js for data
-                visualiation, which makes up over 50% of the front-end ● Worked
-                with three separate third party APIs to request and throttle the
-                necessary data ● Created dozens of algorithms to cleanse complex
-                data
+                ● Integrated data into Victory.js for data visualiation, which
+                makes up over 50% of the front-end ● Worked with three separate
+                third party APIs to request and throttle the necessary data ●
+                Created dozens of algorithms to cleanse complex data
               </p>
               <p className="card-text">
                 <small className="text-muted">
