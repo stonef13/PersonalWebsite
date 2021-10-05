@@ -96,7 +96,7 @@ const Work = () => {
               <p className="card-text">
                 ● Constructed automated testing code and integrated Travis CI
                 for continuous integration ● Designed front and back end
-                (fullstack) for cart/checkout ● Created back-end heavy
+                (fullstack) for cart/checkout ● Created back end heavy
                 algorithms to sort and organize data in order to keep the front
                 end extremely fast and reliable
               </p>
