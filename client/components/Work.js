@@ -57,7 +57,7 @@ const Work = () => {
             <div className="row">
               <p className="card-text">
                 ● Integrated data into Victory.js for data visualiation, which
-                makes up over 50% of the front-end ● Worked with three separate
+                makes up over 50% of the front end ● Worked with three separate
                 third party APIs to request and throttle the necessary data ●
                 Created dozens of algorithms to cleanse complex data
               </p>
@@ -94,8 +94,8 @@ const Work = () => {
             </div>
             <div className="row">
               <p className="card-text">
-                ● Learned Bootstrap in just a few hours and made main
-                contribution to the design ● Designed front and back end
+                ● Constructed automated testing code and integrated Travis CI
+                for continuous integration ● Designed front and back end
                 (fullstack) for cart/checkout ● Created back-end heavy
                 algorithms to sort and organize data in order to keep the front
                 end extremely fast and reliable
