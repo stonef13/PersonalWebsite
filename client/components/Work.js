@@ -60,14 +60,12 @@ const Work = () => {
               <FadeInContainer>
                 <a
                   href="https://github.com/FSAhedgehog/fsahedgehog"
-                  type="button"
                   className="btn btn-dark"
                 >
                   GitHub
                 </a>
                 <a
                   href="https://fsahedgehog.herokuapp.com/"
-                  type="button"
                   className="btn btn-secondary"
                 >
                   Hedgehog
@@ -106,14 +104,12 @@ const Work = () => {
               <FadeInContainer>
                 <a
                   href="https://github.com/stonef13/grace-shopper"
-                  type="button"
                   className="btn btn-dark"
                 >
                   GitHub
                 </a>
                 <a
                   href="https://links-lights-v2.herokuapp.com"
-                  type="button"
                   className="btn btn-secondary"
                 >
                   Link's Lights
@@ -151,7 +147,6 @@ const Work = () => {
               <FadeInContainer>
                 <a
                   href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16"
-                  type="button"
                   className="btn btn-secondary"
                 >
                   Switching From JavaScript To Swift
