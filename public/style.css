@@ -15,6 +15,11 @@ form div {
   display: inline-block;
 }
 
+hr {
+  background: linear-gradient(-45deg, white, #23a6d5, #23d5ab, white);
+  /* animation: gradient 15s ease infinite; */
+}
+
 .intro {
   text-align: center;
   padding-bottom: 25%;
@@ -130,14 +135,6 @@ form div {
 i {
   background-color: white;
 }
-
-/* .hedgehog {
-  background-color: purple;
-}
-
-.links-lights {
-  background-color: yellow;
-} */
 
 @media only screen and (max-width: 600px) {
   .intro {
