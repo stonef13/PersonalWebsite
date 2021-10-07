@@ -44,17 +44,6 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <FadeInContainer>
-                <div className="card screenshot-fade">
-                  <img
-                    className="card-img"
-                    src="/work_images/Hedgehog_Screenshot.png"
-                    alt="Card image"
-                  />
-                </div>
-              </FadeInContainer>
-            </div>
-            <div className="row">
               <p className="card-text">
                 ● Integrated data into Victory.js for data visualiation, which
                 makes up over 50% of the front end ● Worked with three separate
@@ -66,6 +55,24 @@ const Work = () => {
                   Tech Stack: React/Redux, Sequelize, Express, Victory.js
                 </small>
               </p>
+            </div>
+            <div className="row">
+              <FadeInContainer>
+                <a
+                  href="https://github.com/FSAhedgehog/fsahedgehog"
+                  type="button"
+                  className="btn btn-dark"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://fsahedgehog.herokuapp.com/"
+                  type="button"
+                  className="btn btn-secondary"
+                >
+                  Hedgehog
+                </a>
+              </FadeInContainer>
             </div>
           </div>
         </div>
@@ -82,17 +89,6 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <FadeInContainer>
-                <div className="card">
-                  <img
-                    className="card-img"
-                    src="/work_images/Links_Lights_Screenshot.png"
-                    alt="Card image"
-                  />
-                </div>
-              </FadeInContainer>
-            </div>
-            <div className="row">
               <p className="card-text">
                 ● Constructed automated testing code and integrated Travis CI
                 for continuous integration ● Designed front and back end
@@ -105,6 +101,24 @@ const Work = () => {
                   Tech Stack: React/Redux, Sequelize, Express
                 </small>
               </p>
+            </div>
+            <div className="row">
+              <FadeInContainer>
+                <a
+                  href="https://github.com/stonef13/grace-shopper"
+                  type="button"
+                  className="btn btn-dark"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://links-lights-v2.herokuapp.com"
+                  type="button"
+                  className="btn btn-secondary"
+                >
+                  Link's Lights
+                </a>
+              </FadeInContainer>
             </div>
           </div>
         </div>
@@ -121,17 +135,6 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <FadeInContainer>
-                <div className="card">
-                  <img
-                    className="card-img"
-                    src="/work_images/Swift_Publication_Screenshot.png"
-                    alt="Card image"
-                  />
-                </div>
-              </FadeInContainer>
-            </div>
-            <div className="row">
               <p className="card-text">
                 ● Publication on perspectives about switching from JavaScript to
                 Swift ● Covers type annotations (similar to TypeScript) ● Covers
@@ -143,6 +146,17 @@ const Work = () => {
                   Tech Focus: Swift, JavaScript
                 </small>
               </p>
+            </div>
+            <div className="row">
+              <FadeInContainer>
+                <a
+                  href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16"
+                  type="button"
+                  className="btn btn-secondary"
+                >
+                  Switching From JavaScript To Swift
+                </a>
+              </FadeInContainer>
             </div>
           </div>
         </div>
