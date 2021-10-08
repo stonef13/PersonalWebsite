@@ -86,6 +86,39 @@ hr {
   text-align: center;
 }
 
+.hedgehog-button {
+  background-color: rgb(157, 97, 255);
+}
+
+.hedgehog-button:hover {
+  background-color: black;
+  color: rgb(157, 97, 255);
+}
+
+.links-lights-button {
+  background-color: #f9c74f;
+  color: #03045e;
+}
+
+.links-lights-button:hover {
+  background-color: black;
+  color: #f9c74f;
+}
+
+.publication-button {
+  background-color: #4ad66d;
+}
+
+.publication-button:hover {
+  background-color: black;
+  color: #4ad66d;
+}
+
+.github-button:hover {
+  color: black;
+  background-color: white;
+}
+
 #skills {
   text-align: center;
 }
