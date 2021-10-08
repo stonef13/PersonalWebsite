@@ -66,6 +66,11 @@ hr {
   width: 50%;
   border: black solid 4px;
   margin-bottom: 5%;
+  transition: transform 0.2s;
+}
+
+.poster:hover {
+  transform: scale(1.2);
 }
 
 .about-header {
