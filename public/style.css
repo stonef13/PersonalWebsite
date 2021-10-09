@@ -17,7 +17,6 @@ form div {
 
 hr {
   background: linear-gradient(-45deg, white, #23a6d5, #23d5ab, white);
-  /* animation: gradient 15s ease infinite; */
 }
 
 .intro {
@@ -92,7 +91,7 @@ hr {
 }
 
 .hedgehog-button {
-  background-color: rgb(157, 97, 255);
+  background-color: #23a6d5;
 }
 
 .hedgehog-button:hover {
@@ -101,8 +100,7 @@ hr {
 }
 
 .links-lights-button {
-  background-color: #f9c74f;
-  color: #03045e;
+  background-color: #23a6d5;
 }
 
 .links-lights-button:hover {
@@ -111,7 +109,7 @@ hr {
 }
 
 .publication-button {
-  background-color: #4ad66d;
+  background-color: #23a6d5;
 }
 
 .publication-button:hover {
