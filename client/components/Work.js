@@ -44,12 +44,17 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <p className="card-text">
-                ● Integrated data into Victory.js for data visualiation, which
-                makes up over 50% of the front end ● Worked with three separate
-                third party APIs to request and throttle the necessary data ●
-                Created dozens of algorithms to cleanse complex data
-              </p>
+              <div className="card-text">
+                <p>
+                  Integrated data into Victory.js for data visualiation, which
+                  makes up over 50% of the front end
+                </p>
+                <p>
+                  Worked with three separate third party APIs to request and
+                  throttle the necessary data
+                </p>
+                <p>Created dozens of algorithms to cleanse complex data</p>
+              </div>
               <p className="card-text">
                 <small className="text-muted">
                   Tech Stack: React/Redux, Sequelize, Express, Victory.js
@@ -66,7 +71,7 @@ const Work = () => {
                 </a>
                 <a
                   href="https://fsahedgehog.herokuapp.com/"
-                  className="btn btn-secondary hedgehog-button"
+                  className="btn btn-secondary github-button"
                 >
                   Hedgehog
                 </a>
@@ -87,13 +92,17 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <p className="card-text">
-                ● Constructed automated testing code and integrated Travis CI
-                for continuous integration ● Designed front and back end
-                (fullstack) for cart/checkout ● Created back end heavy
-                algorithms to sort and organize data in order to keep the front
-                end extremely fast and reliable
-              </p>
+              <div className="card-text">
+                <p>
+                  Constructed automated testing code and integrated Travis CI
+                  for continuous integration
+                </p>
+                <p>Designed front and back end (fullstack) for cart/checkout</p>
+                <p>
+                  Created back end heavy algorithms to sort and organize data in
+                  order to keep the front end extremely fast and reliable
+                </p>
+              </div>
               <p className="card-text">
                 <small className="text-muted">
                   Tech Stack: React/Redux, Sequelize, Express
@@ -110,7 +119,7 @@ const Work = () => {
                 </a>
                 <a
                   href="https://links-lights-v2.herokuapp.com"
-                  className="btn btn-secondary links-lights-button"
+                  className="btn btn-secondary github-button"
                 >
                   Link's Lights
                 </a>
@@ -131,11 +140,14 @@ const Work = () => {
           </div>
           <div className="col-md">
             <div className="row">
-              <p className="card-text">
-                ● Publication on perspectives about switching from JavaScript to
-                Swift ● Covers type annotations (similar to TypeScript) ● Covers
-                everything from variable declaration to loops
-              </p>
+              <div className="card-text">
+                <p>
+                  Publication on perspectives about switching from JavaScript to
+                  Swift
+                </p>
+                <p>Covers type annotations (similar to TypeScript)</p>
+                <p>Covers everything from variable declaration to loops</p>
+              </div>
               <p></p>
               <p className="card-text">
                 <small className="text-muted">
@@ -147,7 +159,7 @@ const Work = () => {
               <FadeInContainer>
                 <a
                   href="https://rsfuglaar.medium.com/switching-from-javascript-to-swift-2b1c4c415a16"
-                  className="btn btn-secondary publication-button"
+                  className="btn btn-secondary github-button"
                 >
                   Switching From JavaScript To Swift
                 </a>
